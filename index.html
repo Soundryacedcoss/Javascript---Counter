@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript_conter</title>
+     <link rel="stylesheet" href="style.css">
+<style>
+
+</style>
+
+</head>
+<body>
+    <!-- <p id="Demo">1</p> -->
+    <div class="class01">
+    <button id="b1" onclick="myfun1()">-</button>
+    <p id="Demo">3</p>
+    <button id="b2" onclick="myfun2()">+</button>
+    </div>
+</body>
+<script>
+    var Demo=3;
+    function myfun1(){
+        Demo-=1;
+    document.getElementById("Demo").innerHTML=Demo;
+    };
+    function myfun2(){
+        Demo+=1
+    document.getElementById("Demo").innerHTML=Demo;
+    }
+</script>
+</html>

@@ -1,0 +1,26 @@
+.class01{
+    /* background-color: rgb(114, 97, 97); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#b1{
+    width: 4%;
+    /* margin: 2%; */
+    padding: 2%;
+    border-bottom-left-radius: 25%;
+    border-top-left-radius: 25%;
+}
+#b2{
+    width: 4%;
+    /* margin: 2%; */
+    padding: 2%;
+    border-bottom-right-radius: 25%;
+    border-top-right-radius: 25%;
+}
+#Demo{
+    width: 2%;
+    /* margin: 2%; */
+    padding: 2%;
+    background-color: #f0f0f0;
+}
